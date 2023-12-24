@@ -1,0 +1,6 @@
+AssetBundle.CreateFromFile:PoseMod/sanrioclip.unity3d
+AssetBundle.LoadAsync:HKClipNew
+AssetBundle.Unload
+NewAsset:f02_HelloKitty_00Mesh
+DeliYanHair:f02_HelloKitty_00Mesh
+RefLocalPosition:f02_HelloKitty_00Mesh:0:-1.442:0.030

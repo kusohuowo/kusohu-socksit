@@ -1,0 +1,149 @@
+@font-face {
+  font-family: 'lovtony.ttf';
+  src: url(Lovtony\ Script.ttf);
+}
+@font-face {
+  font-family: 'hellochristmas.ttf';
+  src: url(Hello-Christmas-trial.ttf)
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+}
+.blackbox{
+    width: 100%;
+    height: 5vh;
+}
+a:visited{
+    color: white;
+}
+a:hover{
+    color: red;
+    transition: 
+    color 1s;
+    cursor: pointer;
+    transform: matrix(0.5, 0.5);
+}
+header{
+    width: 100%;
+    height: 7vh;
+    display: grid;
+
+    z-index: 5;
+    grid-template-columns: 10fr 1fr 1fr 1fr 1fr 2fr ;
+    background-color: rgb(28, 28, 73);
+    column-gap: 10px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+header img{
+    margin-left: 25%;
+}
+header span{
+    font-size: 15pt;
+    margin-top: 18px;
+    text-align: left;
+    color: whitesmoke;
+}
+header span:hover{
+    color: red;
+    transition: 
+    color 1s;
+    cursor: pointer;
+    transform: matrix(0.5, 0.5);
+}
+.redbox{
+    height: 5vh;
+    width: 100%;
+    background-color: rgb(143, 31, 31);
+}
+.white{
+    height: 4vh;
+    width: 100%;
+    background-color: aliceblue;
+}
+main{
+    grid-template-columns: 1fr 6fr 1fr;
+    grid-template-rows: 1fr 1fr 2fr;
+}
+.socks{
+    width: 60%;
+    margin-top: 3%;
+    margin-left: 20%;
+    height: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 80px;
+}
+.a1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.a1 img{
+    width: 100%;
+}
+.a1 h4{
+    text-align: center;
+}
+.a1 p{
+    text-align: center;
+}
+.button{
+    background-color: rgb(212, 3, 3);
+    color: white;
+    width: 15vh;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button:hover{
+    cursor: pointer;
+    color: rgb(124, 124, 187);
+    transition: 
+    color 1s;
+}
+.redfooter{
+    background-color: rgb(212, 3, 3);
+    width: 100%;
+    height: 5vh;
+    text-align: center;
+    padding-top: 1%;
+}
+.white{
+    width: 100%;
+    height: 2vh;
+    background-color: white;
+}
+footer{
+    display: grid;
+    height: 30vh;
+    background-color: rgb(24, 24, 56);
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-left: 18%;
+    padding-right: 18%;
+    gap: 5%;
+    padding-top: 2%;
+
+}
+footer h3{
+    color: azure;
+    margin-bottom: 3vh;
+
+}
+footer p{
+    color: azure;
+}
+footer img{
+    width: 70%;
+    height: auto;
+
+}
+.redfooter p{
+    color: azure;
+    font-family: 'hellochristmas.ttf';
+}

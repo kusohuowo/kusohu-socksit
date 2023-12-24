@@ -1,0 +1,389 @@
+@font-face {
+  font-family: 'lovtony.ttf';
+  src: url(Lovtony\ Script.ttf);
+}
+@font-face {
+  font-family: 'hellochristmas.ttf';
+  src: url(Hello-Christmas-trial.ttf)
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+}
+.blackbox{
+    width: 100%;
+    height: 5vh;
+}
+a:visited{
+    color: white;
+}
+a:hover{
+    color: red;
+    transition: 
+    color 1s;
+    cursor: pointer;
+    transform: matrix(0.5, 0.5);
+}
+header{
+    width: 100%;
+    height: 7vh;
+    display: grid;
+
+    z-index: 5;
+    grid-template-columns: 10fr 1fr 1fr 1fr 1fr 2fr ;
+    background-color: rgb(28, 28, 73);
+    column-gap: 10px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+header img{
+    margin-left: 25%;
+}
+header span{
+    font-size: 15pt;
+    margin-top: 18px;
+    text-align: left;
+    color: whitesmoke;
+}
+header span:hover{
+    color: red;
+    transition: 
+    color 1s;
+    cursor: pointer;
+    transform: matrix(0.5, 0.5);
+}
+.main_box{
+    display: flex;
+    height: 80vh;
+    width: 100%;
+    display: grid;
+}
+.main_box span{
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-transform: uppercase;
+    display: block;
+}
+.main_box p{
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: block;
+}
+.text1{
+    color: rgb(255, 63, 63);
+    font-size: 48px;
+    font-weight: 500;
+    top: 50%;
+    letter-spacing: 7px;
+    margin-bottom: 20px;
+    position: relative;
+    animation: text 3s 1;
+}
+.text2{
+    font-family: 'lovtony.ttf';
+    color: whitesmoke;
+    font-size: 150px;
+    animation: text 3s 1;
+    top: 55%;
+}
+
+@keyframes text{
+    0%{
+        color: aliceblue;
+        margin-bottom: -80px;
+    }
+    30%{
+        letter-spacing: 25px;
+        margin-bottom: -80px;
+    }
+    85%{
+        letter-spacing: 8px;
+        margin-bottom: -80px;
+    }
+}
+.main_box img{
+    width: 100%;
+}
+.redbox{
+    height: 5vh;
+    width: 100%;
+    background-color: rgb(143, 31, 31);
+}
+.redsnow{
+    width: 100%;
+    height: 45vh;
+}
+.redsnow span{
+    position: relative;
+    margin-left: 550px;
+    top: -280px;
+    z-index: 1;
+    font-size: 80px;
+    color: azure;
+    font-family: 'hellochristmas.ttf';
+    border-radius: 2% solid black;
+}
+.redsnow p{
+    position: relative;
+    margin-left: 650px;
+    top: -390px;
+    z-index: 1;
+    font-size: 90px;
+    color: azure;
+    font-family: 'lovtony.ttf';
+}
+.redsnow img{
+    width: 100%;
+    height: auto;
+}
+.products{
+    display: flex;
+    justify-content: center;
+}
+.products1 img{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    height: auto;
+    border-radius: 60%;
+}
+.products2 img{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    height: auto;
+    border-radius: 60%;
+}
+.products3 img{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    height: auto;
+    border-radius: 60%;
+}
+.products span{
+    align-self: center;
+    font-family: 'Impact';
+    font-size: 30pt;
+    margin-top: 18px;
+    color: rgb(17, 17, 87);
+    transition: 
+    color 1s;  
+}
+.products h3{
+    align-self: center;
+    font-family: 'Courier New';
+    font-size: 15pt;
+    margin-top: 18px;
+    color: rgb(17, 17, 87);
+    transition: 
+    color 1s;  
+}
+.products span:hover{
+    color: red;
+    cursor: pointer;
+    transform: matrix(0.5, 0.5);
+}
+.products p:hover{
+    color: red;
+    cursor: pointer;
+    transform: matrix(0.5, 0.5);
+}
+.line{
+    background-color: white;
+    width: 100%;
+    height: 5vh;
+}
+main{
+    background-color: rgb(24, 24, 56);
+}
+.popularsocks{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 40px;
+    color: azure;
+    top: -50%;
+}
+.socks{
+    width: 60%;
+    margin-top: 3%;
+    margin-left: 20%;
+    height: 70%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 80px;
+}
+.a1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.a1 img{
+    width: 100%;
+}
+.a1 h4{
+    text-align: center;
+    color: aliceblue;
+}
+.a1 p{
+    color: aliceblue;
+    text-align: center;
+}
+.button{
+    background-color: rgb(212, 3, 3);
+    color: white;
+    width: 15vh;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button:hover{
+    cursor: pointer;
+    color: rgb(124, 124, 187);
+    transition: 
+    color 1s;
+}
+.win{
+    background-color: rgb(24, 24, 56);
+    width: 100%;
+    height: 5vh;
+}
+.luxury{
+    display: grid;
+    width: 100%;
+    height: 60vh;
+    grid-template-columns: 1fr 1fr;
+    gap: 5%;
+    font-size: large;
+}
+.luxury p{
+    margin-bottom: 3vh;
+    font-size: 20px;
+    font-family: 'Verdana';
+}
+.luxury h3{
+    margin-bottom: 3vh;
+    font-family: 'Arial black';
+    font-size: 30px;
+}
+.luxury div{
+    padding-top: 7%;
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 75%;
+}
+.luxurysock{
+    width: 30%;
+    padding-top: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.luxurysock img{
+    width: 50vh;
+    height: auto;
+}
+.aop img{
+    width: 100%;
+    height: auto;
+}
+.aou {
+    font-size: 100px;
+    line-height: 100px;
+    margin-top: 280px;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-transform: uppercase;
+    display: block;
+    color: aliceblue;
+    animation: text 20s 1;
+}
+.pou {
+    font-size: 30px;
+    text-align: center;
+    position: absolute;
+    margin-top: 340px;
+    left: 50%;
+    text-transform: uppercase;
+    display: block;
+    color: aliceblue;
+    animation: text 15s ;
+}
+@keyframes text{
+    0%{
+        color: aliceblue;
+        margin-bottom: -80px;
+    }
+    30%{
+        letter-spacing: 25px;
+        margin-bottom: -80px;
+    }
+    85%{
+        letter-spacing: 8px;
+        margin-bottom: -80px;
+    }
+}
+.button1{
+    background-color: rgb(212, 3, 3);
+    color: white;
+    width: 15vh;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -280px;
+    text-align: center;
+    position: absolute;
+    left: 45%;
+}
+.button1:hover{
+    cursor: pointer;
+    color: rgb(124, 124, 187);
+    transition: 
+    color 1s;
+}
+
+footer{
+    display: grid;
+    height: 30vh;
+    background-color: rgb(24, 24, 56);
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-left: 18%;
+    padding-right: 18%;
+    gap: 5%;
+    padding-top: 2%;
+
+}
+footer h3{
+    color: azure;
+    margin-bottom: 3vh;
+
+}
+footer p{
+    color: azure;
+}
+footer img{
+    width: 70%;
+    height: auto;
+
+}
+.redfooter{
+    background-color: rgb(212, 3, 3);
+    width: 100%;
+    height: 5vh;
+    text-align: center;
+    padding-top: 1%;
+}
+.redfooter p{
+    color: azure;
+    font-family: 'hellochristmas.ttf';
+}
